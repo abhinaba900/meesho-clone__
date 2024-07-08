@@ -1,0 +1,93 @@
+﻿.product-card-parent-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-name {
+  color: rgb(139, 139, 163);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 20px;
+  font-family: "Mier book";
+  margin: 0px;
+  padding: 0px;
+}
+
+.card-price {
+  color: rgb(53, 53, 67);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-family: "Mier bold";
+  margin: 0px;
+  padding: 0px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-price span {
+  color: rgb(139, 139, 163);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-family: "Mier demi";
+  margin: 0px;
+  padding: 0px;
+}
+
+.card-delivery {
+  pointer-events: none;
+  color: rgb(97, 97, 115);
+  background: rgb(248, 248, 255);
+  padding: 4px 8px;
+  border-radius: 48px;
+  display: inline-flex;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "Mier demi";
+  text-align: center;
+}
+
+.card-rating {
+  display: inline-flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 16px;
+  font-family: "Mier demi";
+  text-align: center;
+  margin: 0px;
+  margin-top: 0.5rem;
+  border-radius: 16px;
+  padding: 4px 8px;
+  background: rgb(35, 187, 117);
+}
+
+.card-main-cointainer {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid rgb(206, 206, 222);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.star {
+  margin-left: 0.5rem;
+  fill: rgb(255, 255, 255);
+}

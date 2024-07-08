@@ -1,0 +1,18 @@
+.App {
+  height: 100%;
+}
+
+.w-60 {
+  width: 75%;
+  padding: 1rem;
+}
+
+.w-30 {
+  width: 30%;
+  padding: 1rem;
+}
+
+.border-left {
+  border-left: 1px solid rgb(206, 206, 222);
+  padding-left: 1rem;
+}
